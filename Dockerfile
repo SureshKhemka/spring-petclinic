@@ -8,4 +8,4 @@ COPY target/spring-petclinic-3.2.0-SNAPSHOT.jar .
 EXPOSE 8080
 
 # Start Tomcat
-CMD ["java -jar"," ./spring-petclinic-3.2.0-SNAPSHOT.jar"]
+CMD ["java"," ./spring-petclinic-3.2.0-SNAPSHOT.jar"]
