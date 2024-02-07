@@ -1,5 +1,5 @@
 # Use the official Tomcat base image
-FROM jdk17
+FROM openjdk:17
 
 # Copy the WAR file to the webapps directory
 COPY target/petclinic.war .
